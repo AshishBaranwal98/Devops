@@ -9,7 +9,7 @@ public class DemoController {
 
     @GetMapping("/msg")
     public String getMsg() {
-        System.out.println("My name  is hisu Ashish Baranwal and my friends call me Ashos");
+        System.out.println("My name  is hisuAshish Baranwal and my friends call me Ashos");
         return "My name  is Ashish Baranwal and my friends call me Ash";
     }
 }
